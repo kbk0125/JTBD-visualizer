@@ -25,9 +25,9 @@ Each stage is represented by a proportional bar and an auto-height activity card
 Clone the repository and copy the skill folder into your personal Codex skills directory:
 
 ```bash
-git clone https://github.com/kbk0125/jtbd-timeline.git
+git clone https://github.com/kbk0125/JTBD-visualizer.git
 mkdir -p ~/.codex/skills
-cp -R jtbd-timeline/skills/job-map-diagrams ~/.codex/skills/job-map-diagrams
+cp -R JTBD-visualizer/skills/job-map-diagrams ~/.codex/skills/job-map-diagrams
 ```
 
 Restart Codex after installation so it discovers the skill.
