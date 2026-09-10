@@ -7,7 +7,6 @@ from .constants import (
     BAR_HEIGHT,
     HEADER_HEIGHT,
     HEADER_Y,
-    HATCH_SPACING,
     LANES,
     LEGEND_Y,
     CONNECTOR_COLOR,
@@ -74,43 +73,6 @@ def _header_entity(spec: JobMapSpec) -> dict:
     }
 
 
-def _format_percent(value: float) -> str:
-    return f"{value:g}%"
-
-
-def _hatch_path(width: int, height: int) -> str:
-    """Return clipped diagonal line segments for a custom Eraser geoPath."""
-    segments = []
-    for offset in range(-height + HATCH_SPACING, width, HATCH_SPACING):
-        start_x = max(0, offset)
-        start_y = max(0, -offset)
-        end_x = min(width, offset + height)
-        end_y = end_x - offset
-        if start_x < end_x:
-            segments.append(f"M {start_x},{start_y} L {end_x},{end_y}")
-    return " ".join(segments)
-
-
-def _hatch_entity(entity_id: str, x: int, y: int, width: int, height: int, color: str) -> dict:
-    return {
-        "tag": "Shape",
-        "id": entity_id,
-        "shape": "parallelogram",
-        "x": x,
-        "y": y,
-        "width": width,
-        "height": height,
-        "geoPath": _hatch_path(width, height),
-        "geoW": width,
-        "geoH": height,
-        "color": color,
-        "bgColor": "#00000000",
-        "borderColor": color,
-        "styleMode": "plain",
-        "texts": [],
-    }
-
-
 def _legend_entities() -> list[dict]:
     swatch_width = 64
     swatch_height = 14
@@ -153,20 +115,14 @@ def _legend_entities() -> list[dict]:
             "width": swatch_width,
             "height": swatch_height,
             "color": LANES["Plan"]["line_color"],
-            "bgColor": LANES["Plan"]["line_color"],
+            "bgColor": LANES["Plan"]["outside_fill_color"],
             "borderColor": LANES["Plan"]["line_color"],
+            "borderStyle": "dashed",
+            "borderWidth": 2,
             "styleMode": "plain",
             "cornerRadius": "round",
             "texts": [],
         },
-        _hatch_entity(
-            "legend-outside-product-hatch",
-            second_x,
-            LEGEND_Y,
-            swatch_width,
-            swatch_height,
-            LANES["Plan"]["hatch_color"],
-        ),
         {
             "tag": "Textbox",
             "id": "legend-outside-product-label",
@@ -197,7 +153,6 @@ def _card_entities(
     stage_id = stage.id
     card_body, card_sources_sizing, card_body_overlay = _card_content(stage, sources)
     card_metric = stage_metric_label(stage, representation)
-    product_boundary = f"Outside product: {_format_percent(stage.outside_product_percent)}"
     prefix = f"{state_id}-"
 
     return [
@@ -233,13 +188,6 @@ def _card_entities(
                 },
                 {
                     "text": card_metric,
-                    "fontSize": 14,
-                    "color": "#00000000",
-                    "hAlign": "left",
-                    "typeface": "clean",
-                },
-                {
-                    "text": product_boundary,
                     "fontSize": 14,
                     "color": "#00000000",
                     "hAlign": "left",
@@ -306,23 +254,11 @@ def _card_entities(
             "tag": "Textbox",
             "id": f"{prefix}card-body-{stage_id}",
             "x": card_x + 24,
-            "y": card_y + 86,
+            "y": card_y + 61,
             "width": card_width - 24 - round(card_width * 0.075),
             "text": card_body_overlay,
             "color": "#4B5563",
             "fontSize": 16,
-            "hAlign": "left",
-            "typeface": "clean",
-        },
-        {
-            "tag": "Textbox",
-            "id": f"{prefix}card-product-boundary-{stage_id}",
-            "x": card_x + 24,
-            "y": card_y + 57,
-            "width": card_width - 48,
-            "text": product_boundary,
-            "color": "#4B5563",
-            "fontSize": 14,
             "hAlign": "left",
             "typeface": "clean",
         },
@@ -383,6 +319,7 @@ def build_diagram(spec: JobMapSpec) -> dict:
                 bar_width = max(8, round(stage_bar_value(stage, representation) * scale))
                 bar_id = f"{state_id}-metric-bar-{stage_id}"
                 card_id = f"{state_id}-card-{stage_id}"
+                mostly_outside = stage.outside_product_percent > OUTSIDE_PRODUCT_THRESHOLD
                 entities.append(
                     {
                         "tag": "Shape",
@@ -393,24 +330,15 @@ def build_diagram(spec: JobMapSpec) -> dict:
                         "width": bar_width,
                         "height": BAR_HEIGHT,
                         "color": line_color,
-                        "bgColor": line_color,
+                        "bgColor": lane["outside_fill_color"] if mostly_outside else line_color,
                         "borderColor": line_color,
+                        "borderStyle": "dashed" if mostly_outside else "solid",
+                        "borderWidth": 2 if mostly_outside else 1,
                         "styleMode": "plain",
                         "cornerRadius": "round",
                         "texts": [],
                     }
                 )
-                if stage.outside_product_percent > OUTSIDE_PRODUCT_THRESHOLD:
-                    entities.append(
-                        _hatch_entity(
-                            f"{bar_id}-hatch",
-                            bar_x,
-                            lane_layout.bar_y - BAR_HEIGHT // 2,
-                            bar_width,
-                            BAR_HEIGHT,
-                            lane["hatch_color"],
-                        )
-                    )
                 connections.append(
                     {
                         "tag": "Relationship",

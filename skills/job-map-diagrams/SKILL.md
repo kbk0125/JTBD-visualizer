@@ -40,7 +40,7 @@ Create a versioned specification following [references/job-map-spec.md](referenc
 - Use `view: status_quo`, `after`, or `compare`; comparison contains Status Quo followed by After.
 - Use `representation: time` or `funnel` consistently across displayed states.
 - Time stages require positive hours/weeks. Funnel stages require a conditional `dropoff_percent` from 0 through 100; rates need not sum to 100.
-- Every stage requires `outside_product_percent` from 0 through 100. Values above 50 render with a striped bar; values of 50 or less remain solid.
+- Every stage requires `outside_product_percent` from 0 through 100. Values above 50 render as a pale bar with a dashed outline; values of 50 or less remain solid. Keep this measurement out of the cards.
 - Put one to five concise, verb-led activities in each stage and attach evidence only when it genuinely supports the activity.
 - If evidence is insufficient, include the best defensible inferred activity rather than leaving a stage blank.
 - Keep the core job stable and solution-independent across states. Status Quo describes current workarounds and friction. After changes only stages supported by the proposal or explicit assumptions and preserves unaffected stages and measurements.

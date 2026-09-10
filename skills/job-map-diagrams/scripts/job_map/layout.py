@@ -82,7 +82,7 @@ def estimate_card_height(
         source_text = "Sources: No direct evidence — inferred"
     source_lines = _wrapped_lines(source_text, body_width)
 
-    body_start = 86
+    body_start = 61
     text_line_height = 18
     source_separation = 18
     bottom_clearance = 18

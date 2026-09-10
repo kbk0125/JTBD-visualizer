@@ -32,21 +32,21 @@ STAGE_ICONS = {
 LANES = {
     "Plan": {
         "line_color": "#4F76A8",
-        "hatch_color": "#C8D8EA",
+        "outside_fill_color": "#9AB2D0",
         "fill_color": "#E4EDF7",
         "stages": ("define", "locate", "prepare", "confirm"),
         "card_width": 320,
     },
     "Do": {
         "line_color": "#8A5B9E",
-        "hatch_color": "#DDC8E5",
+        "outside_fill_color": "#BEA0C9",
         "fill_color": "#F1E4F4",
         "stages": ("execute", "monitor"),
         "card_width": 480,
     },
     "Review": {
         "line_color": "#A9752A",
-        "hatch_color": "#E8D2AA",
+        "outside_fill_color": "#D0AF7D",
         "fill_color": "#F7E9CF",
         "stages": ("modify", "conclude"),
         "card_width": 480,
@@ -63,7 +63,6 @@ BAR_GAP = 10
 CONNECTOR_COLOR = "#C7CDD6"
 CONNECTOR_WIDTH = 1
 OUTSIDE_PRODUCT_THRESHOLD = 50
-HATCH_SPACING = 12
 CARD_GAP = 40
 
 HEADER_Y = 30
