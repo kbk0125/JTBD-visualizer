@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Map Diagrams"
+  short_description: "Turn customer problems into visual job maps"
+  default_prompt: "Use $job-map-diagrams to turn this customer problem into an evidence-backed job map diagram."

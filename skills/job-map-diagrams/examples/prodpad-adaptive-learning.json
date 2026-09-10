@@ -1,0 +1,2320 @@
+{
+  "entities": [
+    {
+      "tag": "Shape",
+      "id": "map-title",
+      "shape": "rectangle",
+      "x": 40,
+      "y": 30,
+      "width": 1400,
+      "height": 110,
+      "bgColor": "#FBFCFE",
+      "borderColor": "#D7DEE8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "vAlign": "middle",
+      "texts": [
+        {
+          "text": "Comparison: Complete required workplace training",
+          "fontSize": 26,
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Executor: Corporate learner",
+          "fontSize": 18,
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Core job: Complete required workplace learning at an appropriate level of challenge while retaining the knowledge",
+          "fontSize": 18,
+          "hAlign": "left",
+          "typeface": "clean"
+        }
+      ]
+    },
+    {
+      "tag": "Textbox",
+      "id": "state-heading-status-quo",
+      "x": 140,
+      "y": 155,
+      "width": 360,
+      "text": "Status Quo",
+      "color": "#111827",
+      "fontSize": 34,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-lane-plan",
+      "x": 140,
+      "y": 237,
+      "width": 180,
+      "text": "Plan",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-define",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 286,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-define",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 332,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Identify the required learning outcome and available time — inferred\n\n• Set a target for completing the assigned course — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-define",
+      "icon": "target",
+      "x": 152,
+      "y": 338,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-define",
+      "x": 174,
+      "y": 340,
+      "width": 274,
+      "text": "Define",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-define",
+      "x": 164,
+      "y": 368,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-define",
+      "x": 164,
+      "y": 393,
+      "width": 272,
+      "text": "• Identify the required learning outcome and available time — inferred\n• Set a target for completing the assigned course — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-locate",
+      "shape": "rectangle",
+      "x": 253,
+      "y": 286,
+      "width": 205,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-locate",
+      "shape": "rectangle",
+      "x": 520,
+      "y": 332,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Access the assigned course and its required modules — inferred\n\n• Find material relevant to the learner role and skill level",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-locate",
+      "icon": "search",
+      "x": 532,
+      "y": 338,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-locate",
+      "x": 554,
+      "y": 340,
+      "width": 274,
+      "text": "Locate",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-locate",
+      "x": 544,
+      "y": 368,
+      "width": 272,
+      "text": "Time: 1 hour",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-locate",
+      "x": 544,
+      "y": 393,
+      "width": 272,
+      "text": "• Access the assigned course and its required modules — inferred\n• Find material relevant to the learner role and skill level\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-prepare",
+      "shape": "rectangle",
+      "x": 468,
+      "y": 286,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-prepare",
+      "shape": "rectangle",
+      "x": 900,
+      "y": 332,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Review the prescribed sequence and mandatory modules — inferred\n\n• Begin without a path tailored to existing knowledge — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-prepare",
+      "icon": "settings",
+      "x": 912,
+      "y": 338,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-prepare",
+      "x": 934,
+      "y": 340,
+      "width": 274,
+      "text": "Prepare",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-prepare",
+      "x": 924,
+      "y": 368,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-prepare",
+      "x": 924,
+      "y": 393,
+      "width": 272,
+      "text": "• Review the prescribed sequence and mandatory modules — inferred\n• Begin without a path tailored to existing knowledge — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-confirm",
+      "shape": "rectangle",
+      "x": 581,
+      "y": 286,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-confirm",
+      "shape": "rectangle",
+      "x": 1280,
+      "y": 332,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Check the required modules and completion criteria — inferred\n\n• Determine whether any assigned content can be skipped — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-confirm",
+      "icon": "check-circle",
+      "x": 1292,
+      "y": 338,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-confirm",
+      "x": 1314,
+      "y": 340,
+      "width": 274,
+      "text": "Confirm",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-confirm",
+      "x": 1304,
+      "y": 368,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-confirm",
+      "x": 1304,
+      "y": 393,
+      "width": 272,
+      "text": "• Check the required modules and completion criteria — inferred\n• Determine whether any assigned content can be skipped — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-lane-do",
+      "x": 140,
+      "y": 617,
+      "width": 180,
+      "text": "Do",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-execute",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 666,
+      "width": 1027,
+      "height": 18,
+      "color": "#8A5B9E",
+      "bgColor": "#8A5B9E",
+      "borderColor": "#8A5B9E",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-execute",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 712,
+      "width": 480,
+      "color": "#8A5B9E",
+      "bgColor": "#F1E4F4",
+      "borderColor": "#8A5B9E",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Work through the prescribed course sequence\n\n• Repeat material already known instead of bypassing it — inferred\n\n• Restart or repeat excessive content after a failed module — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-execute",
+      "icon": "play",
+      "x": 152,
+      "y": 718,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-execute",
+      "x": 174,
+      "y": 720,
+      "width": 434,
+      "text": "Execute",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-execute",
+      "x": 164,
+      "y": 748,
+      "width": 432,
+      "text": "Time: 5 hours",
+      "color": "#8A5B9E",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-execute",
+      "x": 164,
+      "y": 773,
+      "width": 420,
+      "text": "• Work through the prescribed course sequence\n• Repeat material already known instead of bypassing it — inferred\n• Restart or repeat excessive content after a failed module — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-monitor",
+      "shape": "rectangle",
+      "x": 1177,
+      "y": 666,
+      "width": 103,
+      "height": 18,
+      "color": "#8A5B9E",
+      "bgColor": "#8A5B9E",
+      "borderColor": "#8A5B9E",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-monitor",
+      "shape": "rectangle",
+      "x": 660,
+      "y": 712,
+      "width": 480,
+      "color": "#8A5B9E",
+      "bgColor": "#F1E4F4",
+      "borderColor": "#8A5B9E",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Check quiz results and progress after each module\n\n• Notice when content is too easy, too difficult, or irrelevant",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-monitor",
+      "icon": "activity",
+      "x": 672,
+      "y": 718,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-monitor",
+      "x": 694,
+      "y": 720,
+      "width": 434,
+      "text": "Monitor",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-monitor",
+      "x": 684,
+      "y": 748,
+      "width": 432,
+      "text": "Time: 0.5 hours",
+      "color": "#8A5B9E",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-monitor",
+      "x": 684,
+      "y": 773,
+      "width": 420,
+      "text": "• Check quiz results and progress after each module\n• Notice when content is too easy, too difficult, or irrelevant\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-lane-review",
+      "x": 140,
+      "y": 997,
+      "width": 180,
+      "text": "Review",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-modify",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 1046,
+      "width": 205,
+      "height": 18,
+      "color": "#A9752A",
+      "bgColor": "#A9752A",
+      "borderColor": "#A9752A",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-modify",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 1092,
+      "width": 480,
+      "color": "#A9752A",
+      "bgColor": "#F7E9CF",
+      "borderColor": "#A9752A",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Continue with limited control over sequence or difficulty — inferred\n\n• Repeat prescribed material when an assessment is unsuccessful — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-modify",
+      "icon": "edit",
+      "x": 152,
+      "y": 1098,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-modify",
+      "x": 174,
+      "y": 1100,
+      "width": 434,
+      "text": "Modify",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-modify",
+      "x": 164,
+      "y": 1128,
+      "width": 432,
+      "text": "Time: 1 hour",
+      "color": "#A9752A",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-modify",
+      "x": 164,
+      "y": 1153,
+      "width": 420,
+      "text": "• Continue with limited control over sequence or difficulty — inferred\n• Repeat prescribed material when an assessment is unsuccessful — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-metric-bar-conclude",
+      "shape": "rectangle",
+      "x": 355,
+      "y": 1046,
+      "width": 205,
+      "height": 18,
+      "color": "#A9752A",
+      "bgColor": "#A9752A",
+      "borderColor": "#A9752A",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "status-quo-card-conclude",
+      "shape": "rectangle",
+      "x": 660,
+      "y": 1092,
+      "width": 480,
+      "color": "#A9752A",
+      "bgColor": "#F7E9CF",
+      "borderColor": "#A9752A",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Complete all required modules and the final assessment — inferred\n\n• Confirm retained knowledge and record course completion — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "status-quo-icon-conclude",
+      "icon": "flag",
+      "x": 672,
+      "y": 1098,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-title-conclude",
+      "x": 694,
+      "y": 1100,
+      "width": 434,
+      "text": "Conclude",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-metric-conclude",
+      "x": 684,
+      "y": 1128,
+      "width": 432,
+      "text": "Time: 1 hour",
+      "color": "#A9752A",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-card-body-conclude",
+      "x": 684,
+      "y": 1153,
+      "width": 420,
+      "text": "• Complete all required modules and the final assessment — inferred\n• Confirm retained knowledge and record course completion — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "status-quo-map-total",
+      "x": 140,
+      "y": 1344,
+      "width": 480,
+      "text": "Total: 10 hours",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "state-heading-after",
+      "x": 140,
+      "y": 1443,
+      "width": 360,
+      "text": "After",
+      "color": "#111827",
+      "fontSize": 34,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-lane-plan",
+      "x": 140,
+      "y": 1525,
+      "width": 180,
+      "text": "Plan",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-define",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 1574,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-define",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 1620,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Identify the required learning outcome and available time — inferred\n\n• Set a target for completing the assigned course — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-define",
+      "icon": "target",
+      "x": 152,
+      "y": 1626,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-define",
+      "x": 174,
+      "y": 1628,
+      "width": 274,
+      "text": "Define",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-define",
+      "x": 164,
+      "y": 1656,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-define",
+      "x": 164,
+      "y": 1681,
+      "width": 272,
+      "text": "• Identify the required learning outcome and available time — inferred\n• Set a target for completing the assigned course — inferred\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-locate",
+      "shape": "rectangle",
+      "x": 253,
+      "y": 1574,
+      "width": 205,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-locate",
+      "shape": "rectangle",
+      "x": 520,
+      "y": 1620,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Access the assigned course and its required modules — inferred\n\n• Find material relevant to the learner role and skill level",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-locate",
+      "icon": "search",
+      "x": 532,
+      "y": 1626,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-locate",
+      "x": 554,
+      "y": 1628,
+      "width": 274,
+      "text": "Locate",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-locate",
+      "x": 544,
+      "y": 1656,
+      "width": 272,
+      "text": "Time: 1 hour",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-locate",
+      "x": 544,
+      "y": 1681,
+      "width": 272,
+      "text": "• Access the assigned course and its required modules — inferred\n• Find material relevant to the learner role and skill level\n\nSources: [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-prepare",
+      "shape": "rectangle",
+      "x": 468,
+      "y": 1574,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-prepare",
+      "shape": "rectangle",
+      "x": 900,
+      "y": 1620,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Complete an initial assessment of existing knowledge\n\n• Receive a path tailored to demonstrated proficiency",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-prepare",
+      "icon": "settings",
+      "x": 912,
+      "y": 1626,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-prepare",
+      "x": 934,
+      "y": 1628,
+      "width": 274,
+      "text": "Prepare",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-prepare",
+      "x": 924,
+      "y": 1656,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-prepare",
+      "x": 924,
+      "y": 1681,
+      "width": 272,
+      "text": "• Complete an initial assessment of existing knowledge\n• Receive a path tailored to demonstrated proficiency\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-confirm",
+      "shape": "rectangle",
+      "x": 581,
+      "y": 1574,
+      "width": 103,
+      "height": 18,
+      "color": "#4F76A8",
+      "bgColor": "#4F76A8",
+      "borderColor": "#4F76A8",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-confirm",
+      "shape": "rectangle",
+      "x": 1280,
+      "y": 1620,
+      "width": 320,
+      "color": "#4F76A8",
+      "bgColor": "#E4EDF7",
+      "borderColor": "#4F76A8",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Review modules selected for role and skill gaps — inferred\n\n• Confirm that mastered material can be skipped",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-confirm",
+      "icon": "check-circle",
+      "x": 1292,
+      "y": 1626,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-confirm",
+      "x": 1314,
+      "y": 1628,
+      "width": 274,
+      "text": "Confirm",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-confirm",
+      "x": 1304,
+      "y": 1656,
+      "width": 272,
+      "text": "Time: 0.5 hours",
+      "color": "#4F76A8",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-confirm",
+      "x": 1304,
+      "y": 1681,
+      "width": 272,
+      "text": "• Review modules selected for role and skill gaps — inferred\n• Confirm that mastered material can be skipped\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-lane-do",
+      "x": 140,
+      "y": 1905,
+      "width": 180,
+      "text": "Do",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-execute",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 1954,
+      "width": 514,
+      "height": 18,
+      "color": "#8A5B9E",
+      "bgColor": "#8A5B9E",
+      "borderColor": "#8A5B9E",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-execute",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 2000,
+      "width": 480,
+      "color": "#8A5B9E",
+      "bgColor": "#F1E4F4",
+      "borderColor": "#8A5B9E",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Work through content matched to current proficiency\n\n• Bypass material already mastered\n\n• Retry only material tied to missed concepts — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 2.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-execute",
+      "icon": "play",
+      "x": 152,
+      "y": 2006,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-execute",
+      "x": 174,
+      "y": 2008,
+      "width": 434,
+      "text": "Execute",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-execute",
+      "x": 164,
+      "y": 2036,
+      "width": 432,
+      "text": "Time: 2.5 hours",
+      "color": "#8A5B9E",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-execute",
+      "x": 164,
+      "y": 2061,
+      "width": 420,
+      "text": "• Work through content matched to current proficiency\n• Bypass material already mastered\n• Retry only material tied to missed concepts — inferred\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-monitor",
+      "shape": "rectangle",
+      "x": 664,
+      "y": 1954,
+      "width": 103,
+      "height": 18,
+      "color": "#8A5B9E",
+      "bgColor": "#8A5B9E",
+      "borderColor": "#8A5B9E",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-monitor",
+      "shape": "rectangle",
+      "x": 660,
+      "y": 2000,
+      "width": 480,
+      "color": "#8A5B9E",
+      "bgColor": "#F1E4F4",
+      "borderColor": "#8A5B9E",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Use assessment results to track progress after each module\n\n• See the learning path adjust as proficiency changes — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 0.5 hours",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-monitor",
+      "icon": "activity",
+      "x": 672,
+      "y": 2006,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-monitor",
+      "x": 694,
+      "y": 2008,
+      "width": 434,
+      "text": "Monitor",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-monitor",
+      "x": 684,
+      "y": 2036,
+      "width": 432,
+      "text": "Time: 0.5 hours",
+      "color": "#8A5B9E",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-monitor",
+      "x": 684,
+      "y": 2061,
+      "width": 420,
+      "text": "• Use assessment results to track progress after each module\n• See the learning path adjust as proficiency changes — inferred\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-lane-review",
+      "x": 140,
+      "y": 2285,
+      "width": 180,
+      "text": "Review",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-modify",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 2334,
+      "width": 205,
+      "height": 18,
+      "color": "#A9752A",
+      "bgColor": "#A9752A",
+      "borderColor": "#A9752A",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-modify",
+      "shape": "rectangle",
+      "x": 140,
+      "y": 2380,
+      "width": 480,
+      "color": "#A9752A",
+      "bgColor": "#F7E9CF",
+      "borderColor": "#A9752A",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Adapt sequence and difficulty based on performance\n\n• Focus follow-up work on unresolved knowledge gaps — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-modify",
+      "icon": "edit",
+      "x": 152,
+      "y": 2386,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-modify",
+      "x": 174,
+      "y": 2388,
+      "width": 434,
+      "text": "Modify",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-modify",
+      "x": 164,
+      "y": 2416,
+      "width": 432,
+      "text": "Time: 1 hour",
+      "color": "#A9752A",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-modify",
+      "x": 164,
+      "y": 2441,
+      "width": 420,
+      "text": "• Adapt sequence and difficulty based on performance\n• Focus follow-up work on unresolved knowledge gaps — inferred\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Shape",
+      "id": "after-metric-bar-conclude",
+      "shape": "rectangle",
+      "x": 355,
+      "y": 2334,
+      "width": 205,
+      "height": 18,
+      "color": "#A9752A",
+      "bgColor": "#A9752A",
+      "borderColor": "#A9752A",
+      "styleMode": "plain",
+      "cornerRadius": "round",
+      "texts": []
+    },
+    {
+      "tag": "Shape",
+      "id": "after-card-conclude",
+      "shape": "rectangle",
+      "x": 660,
+      "y": 2380,
+      "width": 480,
+      "color": "#A9752A",
+      "bgColor": "#F7E9CF",
+      "borderColor": "#A9752A",
+      "styleMode": "watercolor",
+      "cornerRadius": "round",
+      "textAspectRatio": 10,
+      "vAlign": "top",
+      "vMargin": 10,
+      "texts": [
+        {
+          "text": " ",
+          "fontSize": 18,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "• Complete the tailored modules and final assessment — inferred\n\n• Confirm retained knowledge and record course completion — inferred",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": "Time: 1 hour",
+          "fontSize": 14,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 6,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        },
+        {
+          "text": "Sources: ProdPad adaptive-learning proposal · ProdPad PRD example",
+          "fontSize": 16,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "clean"
+        },
+        {
+          "text": " ",
+          "fontSize": 12,
+          "color": "#00000000",
+          "hAlign": "left",
+          "typeface": "rough"
+        }
+      ]
+    },
+    {
+      "tag": "Icon",
+      "id": "after-icon-conclude",
+      "icon": "flag",
+      "x": 672,
+      "y": 2386,
+      "width": 18,
+      "height": 18,
+      "color": "#111827"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-title-conclude",
+      "x": 694,
+      "y": 2388,
+      "width": 434,
+      "text": "Conclude",
+      "color": "#111827",
+      "fontSize": 18,
+      "hAlign": "left",
+      "typeface": "rough"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-metric-conclude",
+      "x": 684,
+      "y": 2416,
+      "width": 432,
+      "text": "Time: 1 hour",
+      "color": "#A9752A",
+      "fontSize": 14,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-card-body-conclude",
+      "x": 684,
+      "y": 2441,
+      "width": 420,
+      "text": "• Complete the tailored modules and final assessment — inferred\n• Confirm retained knowledge and record course completion — inferred\n\nSources: [ProdPad adaptive-learning proposal](https://www.prodpad.com/blog/prd-example/) · [ProdPad PRD example](https://www.prodpad.com/blog/prd-example/)",
+      "color": "#4B5563",
+      "fontSize": 16,
+      "hAlign": "left",
+      "typeface": "clean"
+    },
+    {
+      "tag": "Textbox",
+      "id": "after-map-total",
+      "x": 140,
+      "y": 2650,
+      "width": 480,
+      "text": "Total: 7.5 hours",
+      "color": "#111827",
+      "fontSize": 29,
+      "hAlign": "left",
+      "typeface": "rough"
+    }
+  ],
+  "connections": [
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-define",
+      "from": "status-quo-metric-bar-define",
+      "fromPort": "bottom",
+      "to": "status-quo-card-define",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-locate",
+      "from": "status-quo-metric-bar-locate",
+      "fromPort": "bottom",
+      "to": "status-quo-card-locate",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-prepare",
+      "from": "status-quo-metric-bar-prepare",
+      "fromPort": "bottom",
+      "to": "status-quo-card-prepare",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-confirm",
+      "from": "status-quo-metric-bar-confirm",
+      "fromPort": "bottom",
+      "to": "status-quo-card-confirm",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-execute",
+      "from": "status-quo-metric-bar-execute",
+      "fromPort": "bottom",
+      "to": "status-quo-card-execute",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-monitor",
+      "from": "status-quo-metric-bar-monitor",
+      "fromPort": "bottom",
+      "to": "status-quo-card-monitor",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-modify",
+      "from": "status-quo-metric-bar-modify",
+      "fromPort": "bottom",
+      "to": "status-quo-card-modify",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "status-quo-bar-card-connector-conclude",
+      "from": "status-quo-metric-bar-conclude",
+      "fromPort": "bottom",
+      "to": "status-quo-card-conclude",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-define",
+      "from": "after-metric-bar-define",
+      "fromPort": "bottom",
+      "to": "after-card-define",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-locate",
+      "from": "after-metric-bar-locate",
+      "fromPort": "bottom",
+      "to": "after-card-locate",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-prepare",
+      "from": "after-metric-bar-prepare",
+      "fromPort": "bottom",
+      "to": "after-card-prepare",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-confirm",
+      "from": "after-metric-bar-confirm",
+      "fromPort": "bottom",
+      "to": "after-card-confirm",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-execute",
+      "from": "after-metric-bar-execute",
+      "fromPort": "bottom",
+      "to": "after-card-execute",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-monitor",
+      "from": "after-metric-bar-monitor",
+      "fromPort": "bottom",
+      "to": "after-card-monitor",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-modify",
+      "from": "after-metric-bar-modify",
+      "fromPort": "bottom",
+      "to": "after-card-modify",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    },
+    {
+      "tag": "Relationship",
+      "id": "after-bar-card-connector-conclude",
+      "from": "after-metric-bar-conclude",
+      "fromPort": "bottom",
+      "to": "after-card-conclude",
+      "toPort": "top",
+      "endArrowhead": null,
+      "connectorStyle": "straight",
+      "cornerStyle": "straight",
+      "lineStyle": "solid",
+      "color": "#C7CDD6",
+      "lineWidth": 1
+    }
+  ]
+}
