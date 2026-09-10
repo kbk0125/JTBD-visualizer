@@ -32,21 +32,18 @@ STAGE_ICONS = {
 LANES = {
     "Plan": {
         "line_color": "#4F76A8",
-        "outside_fill_color": "#9AB2D0",
         "fill_color": "#E4EDF7",
         "stages": ("define", "locate", "prepare", "confirm"),
         "card_width": 320,
     },
     "Do": {
         "line_color": "#8A5B9E",
-        "outside_fill_color": "#BEA0C9",
         "fill_color": "#F1E4F4",
         "stages": ("execute", "monitor"),
         "card_width": 480,
     },
     "Review": {
         "line_color": "#A9752A",
-        "outside_fill_color": "#D0AF7D",
         "fill_color": "#F7E9CF",
         "stages": ("modify", "conclude"),
         "card_width": 480,

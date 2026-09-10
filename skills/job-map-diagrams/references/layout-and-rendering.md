@@ -20,8 +20,8 @@ Read this reference when generating or visually revising an Eraser job-map artif
 - Derive a common scale from the largest displayed phase total. The longest phase fills the available width; shorter phases stop proportionally earlier.
 - Use 18px-high bars with a small gap between stages and 28px of visible space from the bar's lower edge to its cards.
 - Draw a thin, light-gray, arrowless connector from the midpoint beneath each bar to the midpoint at the top of its corresponding card. Keep connectors visually subordinate to both bars and cards.
-- Keep the lane color on every bar. When `outside_product_percent` is greater than 50, use the lane's pale fill with a 2px dashed border in the lane color; leave the bar solid at 50 or below.
-- Include a compact legend beneath the header explaining solid as mostly in-product and pale/dashed as mostly outside-product.
+- Keep the lane color on every bar. When `outside_product_percent` is greater than 50, use Eraser's native `watercolor` style; leave the bar crisp with `plain` style at 50 or below.
+- Include a compact legend beneath the header explaining crisp/solid as mostly in-product and watercolor as mostly outside-product.
 
 ## Content-aware vertical placement
 
@@ -44,7 +44,7 @@ Read this reference when generating or visually revising an Eraser job-map artif
 - Use Eraser's `rough` typeface for the map title, state headings, phase labels, card titles, and totals.
 - Use `clean` for executor, core job, metrics, activities, and Sources.
 - Use 29px phase labels and totals; use a slightly larger 34px state heading in comparisons.
-- Render stage cards with watercolor style. Keep bars crisp, icons crisp, and the summary header plain with a white surface and subtle gray border. Mostly-outside bars use only stock Eraser fill and border styling.
+- Render stage cards with watercolor style. Keep mostly-in-product bars crisp, icons crisp, and the summary header plain with a white surface and subtle gray border. Mostly-outside bars use the same lane color with stock Eraser watercolor styling.
 - Plan: border/bar `#4F76A8`, wash `#E4EDF7`.
 - Do: border/bar `#8A5B9E`, wash `#F1E4F4`.
 - Review: border/bar `#A9752A`, wash `#F7E9CF`.
