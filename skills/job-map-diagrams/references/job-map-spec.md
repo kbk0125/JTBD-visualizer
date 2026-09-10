@@ -4,7 +4,7 @@ The renderer accepts UTF-8 JSON with this shape:
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "representation": "time",
   "view": "compare",
   "title": "Comparison: Short map title",
@@ -33,6 +33,7 @@ The renderer accepts UTF-8 JSON with this shape:
         {
           "id": "define",
           "duration": {"value": 0.5, "unit": "hours"},
+          "outside_product_percent": 75,
           "activities": [
             {
               "text": "Determine the desired outcome and available time",
@@ -49,6 +50,7 @@ The renderer accepts UTF-8 JSON with this shape:
         {
           "id": "define",
           "duration": {"value": 0.25, "unit": "hours"},
+          "outside_product_percent": 20,
           "activities": [
             {
               "text": "Use the proposed intervention to define the outcome",
@@ -71,6 +73,7 @@ For a funnel map, set `"representation": "funnel"` and replace each stage's `dur
 {
   "id": "define",
   "dropoff_percent": 10,
+  "outside_product_percent": 75,
   "activities": [
     {
       "text": "Determine the desired outcome and available time",
@@ -83,7 +86,7 @@ For a funnel map, set `"representation": "funnel"` and replace each stage's `dur
 
 Rules enforced by `scripts/build_job_map.py`:
 
-- `schema_version` is required and currently must be `1`. Future incompatible schema changes must increment it rather than silently reinterpreting existing specifications.
+- `schema_version` is required and currently must be `2`. Future incompatible schema changes must increment it rather than silently reinterpreting existing specifications.
 - `title`, `job_executor`, and `core_job` are non-empty strings. The title begins with `Status Quo:`, `After:`, or `Comparison:` according to the selected view.
 - `view` is required and is `status_quo`, `after`, or `compare`.
 - `representation` is required and is either `time` or `funnel`.
@@ -94,6 +97,7 @@ Rules enforced by `scripts/build_job_map.py`:
 - In time mode, every stage has a positive `duration.value` and a canonical `duration.unit` of `hours` or `weeks`. Percentage durations are not accepted. Hours and weeks may be mixed; the renderer treats one week as 168 elapsed hours when calculating proportions and the overall total.
 - In funnel mode, every stage has a numeric `dropoff_percent` from 0 through 100 and no `duration`. The value is conditional: it describes the share of people who reached that stage and drop off there. Stage rates are independent and do not need to sum to 100.
 - Funnel bar widths use the individual conditional drop-off rates. The final completion percentage is `100 × ∏(1 − dropoff_percent / 100)`, not 100 minus the sum of the rates. Thus two consecutive 50% drop-offs result in 25% reaching the end.
+- Every stage has a numeric `outside_product_percent` from 0 through 100. This estimates how much of the user's work in that stage occurs outside the product. Values above 50 render with a diagonal texture; values of exactly 50 or less render solid.
 - Each stage contains one to five activities.
 - Each activity has non-empty text, valid evidence IDs, and confidence of `explicit` or `inferred`.
 - Status Quo activity evidence may cite only `customer_evidence`. After activity evidence may cite `customer_evidence` for unchanged behavior and `proposal_evidence` for changed behavior. Frameworks, category definitions, and analysis methods belong in `method` sources and never appear as proof of behavior.

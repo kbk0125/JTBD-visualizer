@@ -25,6 +25,7 @@ Prioritize unresolved choices and facts:
 2. Executor, desired progress, current Execute behavior, and completion signal.
 3. For After/comparison, the intervention and affected stages.
 4. For every displayed state, all eight durations in hours/weeks or all eight conditional drop-off rates.
+5. For every displayed state, the percentage of each stage's work that happens outside the product.
 
 Do not repeat questions answered by the input. Clearly label qualitative assumptions. Never invent measurements: require the selected view, representation, and all corresponding values before rendering.
 
@@ -34,11 +35,12 @@ Read [references/job-map-method.md](references/job-map-method.md) when drafting 
 
 Create a versioned specification following [references/job-map-spec.md](references/job-map-spec.md):
 
-- Include `schema_version: 1`.
+- Include `schema_version: 2`.
 - Include exactly Define, Locate, Prepare, Confirm, Execute, Monitor, Modify, and Conclude in that order for every displayed state.
 - Use `view: status_quo`, `after`, or `compare`; comparison contains Status Quo followed by After.
 - Use `representation: time` or `funnel` consistently across displayed states.
 - Time stages require positive hours/weeks. Funnel stages require a conditional `dropoff_percent` from 0 through 100; rates need not sum to 100.
+- Every stage requires `outside_product_percent` from 0 through 100. Values above 50 render with a striped bar; values of 50 or less remain solid.
 - Put one to five concise, verb-led activities in each stage and attach evidence only when it genuinely supports the activity.
 - If evidence is insufficient, include the best defensible inferred activity rather than leaving a stage blank.
 - Keep the core job stable and solution-independent across states. Status Quo describes current workarounds and friction. After changes only stages supported by the proposal or explicit assumptions and preserves unaffected stages and measurements.

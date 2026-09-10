@@ -31,6 +31,7 @@ class Duration:
 class Stage:
     id: str
     activities: tuple[Activity, ...]
+    outside_product_percent: float
     duration: Duration | None = None
     dropoff_percent: float | None = None
 
@@ -77,6 +78,7 @@ class JobMapSpec:
                 stages.append(
                     Stage(
                         id=stage["id"],
+                        outside_product_percent=float(stage["outside_product_percent"]),
                         activities=tuple(
                             Activity(
                                 text=activity["text"],

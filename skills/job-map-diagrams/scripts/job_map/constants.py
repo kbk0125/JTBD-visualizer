@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 STAGES = (
     ("define", "Define", "Plan"),
@@ -32,18 +32,21 @@ STAGE_ICONS = {
 LANES = {
     "Plan": {
         "line_color": "#4F76A8",
+        "hatch_color": "#C8D8EA",
         "fill_color": "#E4EDF7",
         "stages": ("define", "locate", "prepare", "confirm"),
         "card_width": 320,
     },
     "Do": {
         "line_color": "#8A5B9E",
+        "hatch_color": "#DDC8E5",
         "fill_color": "#F1E4F4",
         "stages": ("execute", "monitor"),
         "card_width": 480,
     },
     "Review": {
         "line_color": "#A9752A",
+        "hatch_color": "#E8D2AA",
         "fill_color": "#F7E9CF",
         "stages": ("modify", "conclude"),
         "card_width": 480,
@@ -59,12 +62,15 @@ BAR_CARD_GAP = 28
 BAR_GAP = 10
 CONNECTOR_COLOR = "#C7CDD6"
 CONNECTOR_WIDTH = 1
+OUTSIDE_PRODUCT_THRESHOLD = 50
+HATCH_SPACING = 12
 CARD_GAP = 40
 
 HEADER_Y = 30
 HEADER_HEIGHT = 110
-SINGLE_FIRST_PHASE_TITLE_Y = 192
-COMPARISON_FIRST_STATE_HEADING_Y = 155
+LEGEND_Y = 162
+SINGLE_FIRST_PHASE_TITLE_Y = 232
+COMPARISON_FIRST_STATE_HEADING_Y = 205
 STATE_TO_PHASE_GAP = 82
 PHASE_TITLE_TO_BAR = 58
 LANE_CLEARANCE = 80

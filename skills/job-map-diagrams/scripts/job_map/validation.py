@@ -78,6 +78,17 @@ def _validate_metric(stage: dict, stage_path: str, representation: str) -> None:
         fail(f"{stage_path} must not include duration in funnel mode")
 
 
+def _validate_product_boundary(stage: dict, stage_path: str) -> None:
+    outside = stage.get("outside_product_percent")
+    if (
+        isinstance(outside, bool)
+        or not isinstance(outside, (int, float))
+        or not math.isfinite(outside)
+        or not 0 <= outside <= 100
+    ):
+        fail(f"{stage_path}.outside_product_percent must be a finite number from 0 to 100")
+
+
 def _validate_activities(
     stage: dict,
     stage_path: str,
@@ -141,6 +152,7 @@ def _validate_maps(
             if not isinstance(stage, dict):
                 fail(f"{stage_path} must be an object")
             _validate_metric(stage, stage_path, representation)
+            _validate_product_boundary(stage, stage_path)
             _validate_activities(stage, stage_path, state, source_kinds)
 
 

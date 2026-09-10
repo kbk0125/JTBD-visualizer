@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "representation": "time",
   "view": "compare",
   "title": "Comparison: Complete required workplace training",
@@ -32,36 +32,36 @@
   {
     "state": "status_quo",
     "stages": [
-    {"id": "define", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+    {"id": "define", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 80, "activities": [
       {"text": "Identify the required learning outcome and available time", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Set a target for completing the assigned course", "evidence": ["S1"], "confidence": "inferred"}
     ]},
-    {"id": "locate", "duration": {"value": 1, "unit": "hours"}, "activities": [
+    {"id": "locate", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 70, "activities": [
       {"text": "Access the assigned course and its required modules", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Find material relevant to the learner role and skill level", "evidence": ["S1"], "confidence": "explicit"}
     ]},
-    {"id": "prepare", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+    {"id": "prepare", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 60, "activities": [
       {"text": "Review the prescribed sequence and mandatory modules", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Begin without a path tailored to existing knowledge", "evidence": ["S1"], "confidence": "inferred"}
     ]},
-    {"id": "confirm", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+    {"id": "confirm", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 40, "activities": [
       {"text": "Check the required modules and completion criteria", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Determine whether any assigned content can be skipped", "evidence": ["S1"], "confidence": "inferred"}
     ]},
-    {"id": "execute", "duration": {"value": 5, "unit": "hours"}, "activities": [
+    {"id": "execute", "duration": {"value": 5, "unit": "hours"}, "outside_product_percent": 20, "activities": [
       {"text": "Work through the prescribed course sequence", "evidence": ["S1"], "confidence": "explicit"},
       {"text": "Repeat material already known instead of bypassing it", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Restart or repeat excessive content after a failed module", "evidence": ["S1"], "confidence": "inferred"}
     ]},
-    {"id": "monitor", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+    {"id": "monitor", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 30, "activities": [
       {"text": "Check quiz results and progress after each module", "evidence": ["S1"], "confidence": "explicit"},
       {"text": "Notice when content is too easy, too difficult, or irrelevant", "evidence": ["S1"], "confidence": "explicit"}
     ]},
-    {"id": "modify", "duration": {"value": 1, "unit": "hours"}, "activities": [
+    {"id": "modify", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 70, "activities": [
       {"text": "Continue with limited control over sequence or difficulty", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Repeat prescribed material when an assessment is unsuccessful", "evidence": ["S1"], "confidence": "inferred"}
     ]},
-    {"id": "conclude", "duration": {"value": 1, "unit": "hours"}, "activities": [
+    {"id": "conclude", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 20, "activities": [
       {"text": "Complete all required modules and the final assessment", "evidence": ["S1"], "confidence": "inferred"},
       {"text": "Confirm retained knowledge and record course completion", "evidence": ["S1"], "confidence": "inferred"}
     ]}
@@ -70,36 +70,36 @@
   {
     "state": "after",
     "stages": [
-      {"id": "define", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+      {"id": "define", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 80, "activities": [
         {"text": "Identify the required learning outcome and available time", "evidence": ["S1"], "confidence": "inferred"},
         {"text": "Set a target for completing the assigned course", "evidence": ["S1"], "confidence": "inferred"}
       ]},
-      {"id": "locate", "duration": {"value": 1, "unit": "hours"}, "activities": [
+      {"id": "locate", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 40, "activities": [
         {"text": "Access the assigned course and its required modules", "evidence": ["S1"], "confidence": "inferred"},
         {"text": "Find material relevant to the learner role and skill level", "evidence": ["S1"], "confidence": "explicit"}
       ]},
-      {"id": "prepare", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+      {"id": "prepare", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 20, "activities": [
         {"text": "Complete an initial assessment of existing knowledge", "evidence": ["S3"], "confidence": "explicit"},
         {"text": "Receive a path tailored to demonstrated proficiency", "evidence": ["S3"], "confidence": "explicit"}
       ]},
-      {"id": "confirm", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+      {"id": "confirm", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 10, "activities": [
         {"text": "Review modules selected for role and skill gaps", "evidence": ["S3"], "confidence": "inferred"},
         {"text": "Confirm that mastered material can be skipped", "evidence": ["S3"], "confidence": "explicit"}
       ]},
-      {"id": "execute", "duration": {"value": 2.5, "unit": "hours"}, "activities": [
+      {"id": "execute", "duration": {"value": 2.5, "unit": "hours"}, "outside_product_percent": 10, "activities": [
         {"text": "Work through content matched to current proficiency", "evidence": ["S3"], "confidence": "explicit"},
         {"text": "Bypass material already mastered", "evidence": ["S3"], "confidence": "explicit"},
         {"text": "Retry only material tied to missed concepts", "evidence": ["S3"], "confidence": "inferred"}
       ]},
-      {"id": "monitor", "duration": {"value": 0.5, "unit": "hours"}, "activities": [
+      {"id": "monitor", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 10, "activities": [
         {"text": "Use assessment results to track progress after each module", "evidence": ["S3"], "confidence": "explicit"},
         {"text": "See the learning path adjust as proficiency changes", "evidence": ["S3"], "confidence": "inferred"}
       ]},
-      {"id": "modify", "duration": {"value": 1, "unit": "hours"}, "activities": [
+      {"id": "modify", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 20, "activities": [
         {"text": "Adapt sequence and difficulty based on performance", "evidence": ["S3"], "confidence": "explicit"},
         {"text": "Focus follow-up work on unresolved knowledge gaps", "evidence": ["S3"], "confidence": "inferred"}
       ]},
-      {"id": "conclude", "duration": {"value": 1, "unit": "hours"}, "activities": [
+      {"id": "conclude", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 10, "activities": [
         {"text": "Complete the tailored modules and final assessment", "evidence": ["S3"], "confidence": "inferred"},
         {"text": "Confirm retained knowledge and record course completion", "evidence": ["S1"], "confidence": "inferred"}
       ]}

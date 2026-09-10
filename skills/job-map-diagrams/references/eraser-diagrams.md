@@ -5,6 +5,7 @@ This skill targets the open-source JSON format in [eraserlabs/eraser-diagrams](h
 The generated document uses:
 
 - `Shape` entities for stage cards and separate proportional time or funnel bars;
+- custom `geoPath` Shape overlays for clipped diagonal texture on stages where more than half of the work occurs outside the product;
 - plain `Textbox` entities for the consistently left-aligned Plan, Do, and Review headings;
 - Eraser catalog SVG `Icon` entities paired with `Textbox` labels to form each card's title row;
 - Markdown text runs for headings, durations, bullet lists, and evidence links;
@@ -39,4 +40,4 @@ For watercolor output, use the workspace Python runtime with Pillow to trim rend
 python3 scripts/crop_render.py path/to/job-map-diagram.png --padding 24
 ```
 
-Because rendered dimensions depend on font measurement, inspect every preview. If a card overflows, shorten the activity wording before changing the version-one layout.
+Because rendered dimensions depend on font measurement, inspect every preview. If a card overflows, shorten the activity wording before changing the shared layout.

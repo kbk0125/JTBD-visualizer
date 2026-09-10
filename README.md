@@ -14,6 +14,7 @@ The skill helps product managers move from unstructured customer evidence to a c
 - Groups those stages into Plan, Do, and Review.
 - Generates a **Status Quo**, **After**, or combined **Comparison** view.
 - Supports proportional **time** and **funnel drop-off** representations.
+- Textures bars when more than half of a stage's work happens outside the product, while preserving the Plan/Do/Review colors.
 - Distinguishes direct customer evidence, proposal evidence, and JTBD method guidance.
 - Adds evidence links to the stage cards and marks inferred activities.
 - Produces editable Eraser Diagrams JSON plus a rendered preview when Chromium is available.
@@ -42,7 +43,7 @@ Show the current workflow and the workflow after our proposed intervention.
 Use elapsed time for the stage measurements.
 ```
 
-Before rendering, the skill confirms the view and measurement type and collects all eight measurements. It does not invent missing time or funnel data.
+Before rendering, the skill confirms the view and measurement type, collects all eight measurements, and asks what percentage of each stage happens outside the product. It does not invent missing quantitative data.
 
 ### Available views
 
@@ -63,7 +64,7 @@ Funnel completion is calculated multiplicatively because each stage's drop-off a
 
 ## Example
 
-The included fixture is based on the adaptive-learning problem described in ProdPad's [PRD example](https://www.prodpad.com/blog/prd-example/). It compares a 10-hour Status Quo flow with a proposed After flow where Execute becomes 50% faster and the other stage durations remain unchanged.
+The included fixture is based on the adaptive-learning problem described in ProdPad's [PRD example](https://www.prodpad.com/blog/prd-example/). It compares a 10-hour Status Quo flow with a proposed After flow where Execute becomes 50% faster and the other stage durations remain unchanged. Its product-boundary percentages are illustrative assumptions added to demonstrate the solid and textured bar treatments; they are not claims made by the article.
 
 - [Input specification](skills/job-map-diagrams/examples/prodpad-adaptive-learning-spec.json)
 - [Editable Eraser JSON](skills/job-map-diagrams/examples/prodpad-adaptive-learning.json)
@@ -120,10 +121,11 @@ skills/job-map-diagrams/
 
 ## Current scope
 
-- The stage taxonomy and Plan/Do/Review grouping are fixed in version 1.
+- The stage taxonomy and Plan/Do/Review grouping are fixed in schema version 2.
 - A comparison uses the same representation and shared bar scale for both states.
 - Time values accept hours or weeks; percentage-based duration inputs are intentionally rejected.
 - Funnel inputs are conditional stage drop-off rates from 0% through 100%.
+- Every stage includes an outside-product estimate from 0% through 100%; bars become textured only above 50%.
 
 ## License
 
