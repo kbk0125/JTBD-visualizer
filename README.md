@@ -1,25 +1,67 @@
-# Job Map Diagrams
+# JTBD Visualizer
 
-A reusable Codex skill for turning customer problems and proposed product interventions into evidence-backed Jobs-to-be-Done job maps rendered with [Eraser Diagrams](https://github.com/eraserlabs/eraser-diagrams).
+Turn customer evidence into a living, visual problem statement.
 
-The skill helps product managers move from unstructured customer evidence to a consistent eight-stage map, then visualize the current experience, a proposed future experience, or both side by side.
+JTBD Visualizer is a Codex skill for product managers. It investigates how customers accomplish an important workflow, organizes the evidence into an eight-stage Jobs-to-be-Done map, and renders the result with [Eraser Diagrams](https://github.com/eraserlabs/eraser-diagrams).
+
+Use it while you are still learning—not only after you have decided what to build. The same diagram can begin as a Status Quo view of customer problems, become a deeper research artifact as evidence accumulates, and end as a before-and-after feature narrative for your team. This avoids repackaging the same research into a separate problem statement, PRD, and presentation.
 
 ![Comparison of Status Quo and After job maps](skills/job-map-diagrams/examples/prodpad-adaptive-learning.png)
 
-## What it does
+## When to use it
 
-- Accepts a written customer problem or source document.
-- Asks a short set of follow-up questions when important information is missing.
-- Maps the job into Define, Locate, Prepare, Confirm, Execute, Monitor, Modify, and Conclude.
-- Groups those stages into Plan, Do, and Review.
-- Generates a **Status Quo**, **After**, or combined **Comparison** view.
-- Supports proportional **time** and **funnel drop-off** representations.
-- Uses watercolor bars when more than half of a stage's work happens outside the product, while preserving the Plan/Do/Review colors.
-- Distinguishes direct customer evidence, proposal evidence, and JTBD method guidance.
-- Adds evidence links to the stage cards and marks inferred activities.
-- Produces editable Eraser Diagrams JSON plus a rendered preview when Chromium is available.
+### Research your customers' most important problems
 
-Each stage is represented by a proportional bar and an auto-height activity card. Subtle connectors associate bars with their cards. Comparison views use one shared scale so the before and after measurements remain visually comparable.
+Ask how customers accomplish a workflow today. Give the skill a written summary, interview notes, or access to evidence such as customer-call transcripts through your company's connected tools. It creates an initial Status Quo map that gives you a structured place to start investigating.
+
+This is useful when you are not yet sure what to build and want to find recurring friction across several customers.
+
+```text
+Use $job-map-diagrams to investigate how customers complete [workflow] today.
+Review the attached interview notes and call transcripts, then create a Status Quo map.
+Separate direct evidence from inference and tell me what I should investigate next.
+```
+
+### Investigate one important problem deeply
+
+Keep the diagram open as a working research artifact. Add interviews, transcripts, and your own review of the evidence over time, then regenerate the map. The fixed stages make gaps visible and help you determine which related problems must be solved together to unblock the customer's workflow.
+
+```text
+Update this Status Quo job map using the new evidence I attached.
+Preserve supported findings, revise anything contradicted by the evidence,
+and identify stages where our understanding is still mostly inferred.
+```
+
+### Pitch a feature to your team
+
+Once a problem and proposed intervention are credible, generate a Comparison view. It shows how the customer works before and after the feature, how much friction changes at each stage, and which parts of the job still happen outside your product. Use the rendered diagram—or a screenshot of the relevant section—as the problem-statement summary in a review or presentation.
+
+```text
+Create a Comparison job map for this customer problem and proposed feature.
+Keep the core job consistent across both states, show the measured improvement,
+and distinguish work completed inside our product from work completed outside it.
+```
+
+For the reasoning behind these workflows, read [Unbundling the Product Requirement Doc with AI: Problem Statements](https://productiongradesaas.substack.com/p/unbundling-the-product-requirement).
+
+## How it works
+
+1. **Investigate:** Provide a customer-problem summary, source documents, or connected customer evidence.
+2. **Choose the story:** Generate the **Status Quo**, the proposed **After** state, or a **Comparison** of both.
+3. **Measure the pain:** Supply a duration or conditional funnel drop-off for every stage. Bar length makes the relative friction visible.
+4. **Map the product boundary:** Estimate how much of each stage happens outside your product. Watercolor bars call attention to stages that are mostly external.
+5. **Generate the artifact:** Receive editable Eraser JSON and a rendered, source-linked diagram.
+
+The skill asks a short set of follow-up questions when these inputs are incomplete. It does not invent quantitative measurements.
+
+## What the diagram communicates
+
+- The customer's work across **Define, Locate, Prepare, Confirm, Execute, Monitor, Modify, and Conclude**.
+- Three scannable phases: **Plan, Do, and Review**.
+- Relative pain through proportional **time** or **funnel drop-off** bars.
+- Where the workflow leaves your product through prominent watercolor bars.
+- Direct evidence, source links, and clearly marked inferences.
+- A shared scale across Status Quo and After maps so improvements remain visually comparable.
 
 ## Install the skill
 
@@ -33,17 +75,7 @@ cp -R JTBD-visualizer/skills/job-map-diagrams ~/.codex/skills/job-map-diagrams
 
 Restart Codex after installation so it discovers the skill.
 
-## Use it
-
-Invoke the skill with a customer problem, a document, or links to supporting evidence. For example:
-
-```text
-Use $job-map-diagrams to turn this customer problem into a comparison job map.
-Show the current workflow and the workflow after our proposed intervention.
-Use elapsed time for the stage measurements.
-```
-
-Before rendering, the skill confirms the view and measurement type, collects all eight measurements, and asks what percentage of each stage happens outside the product. It does not invent missing quantitative data.
+## Choose a view and measurement
 
 ### Available views
 
