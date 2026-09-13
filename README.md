@@ -22,6 +22,8 @@ Review the attached interview notes and call transcripts, then create a Status Q
 Separate direct evidence from inference and tell me what I should investigate next.
 ```
 
+The connected-research workflow is vendor-neutral. It can work with Gong, Zoom, Fathom, Chorus, Fireflies, Grain, or another authorized tool that can search calls and retrieve transcripts. The skill adapts to the capabilities exposed by the integration rather than relying on vendor-specific commands.
+
 ### Investigate one important problem deeply
 
 Keep the diagram open as a working research artifact. Add interviews, transcripts, and your own review of the evidence over time, then regenerate the map. The fixed stages make gaps visible and help you determine which related problems must be solved together to unblock the customer's workflow.
@@ -53,6 +55,8 @@ For the reasoning behind these workflows, read [Unbundling the Product Requireme
 5. **Generate the artifact:** Receive editable Eraser JSON and a rendered, source-linked diagram.
 
 The skill asks a short set of follow-up questions when these inputs are incomplete. It does not invent quantitative measurements.
+
+When researching through a connected call tool, it samples distinct calls and accounts, retrieves transcript evidence rather than relying on search snippets, preserves contradictions, reports corpus coverage, and identifies evidence gaps before rendering. If the integration cannot return usable transcripts, you can provide transcript exports or files instead.
 
 ## What the diagram communicates
 
