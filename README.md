@@ -72,7 +72,7 @@ When researching through a connected call tool, it samples distinct calls and ac
 Clone the repository and copy the skill folder into your personal Codex skills directory:
 
 ```bash
-git clone https://github.com/kbk0125/JTBD-visualizer.git
+git clone https://github.com/kevinkononenko/JTBD-visualizer.git
 mkdir -p ~/.codex/skills
 cp -R JTBD-visualizer/skills/job-map-diagrams ~/.codex/skills/job-map-diagrams
 ```
