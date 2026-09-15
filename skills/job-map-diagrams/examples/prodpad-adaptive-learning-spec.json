@@ -26,6 +26,20 @@
       "short_label": "ProdPad adaptive-learning proposal",
       "label": "ProdPad PRD example — adaptive-learning idea, impact, and user stories",
       "url": "https://www.prodpad.com/blog/prd-example/"
+    },
+    {
+      "id": "S4",
+      "kind": "customer_evidence",
+      "short_label": "360Learning learner survey",
+      "label": "360Learning — 2021 survey of 600 U.S. employees who received workplace training",
+      "url": "https://360learning.com/blog/best-practices-in-training-and-development/"
+    },
+    {
+      "id": "S5",
+      "kind": "customer_evidence",
+      "short_label": "TalentLMS learner survey",
+      "label": "TalentLMS — 2026 L&D report surveying 1,000 U.S. employees who received workplace training",
+      "url": "https://www.talentlms.com/research/learning-development-report-2026"
     }
   ],
   "maps": [
@@ -33,37 +47,37 @@
     "state": "status_quo",
     "stages": [
     {"id": "define", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 80, "activities": [
-      {"text": "Identify the required learning outcome and available time", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Set a target for completing the assigned course", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Fit required training around an already crowded workday", "evidence": ["S5"], "confidence": "explicit"},
+      {"text": "Work out which assigned learning is relevant to the job", "evidence": ["S1", "S4"], "confidence": "inferred"}
     ]},
     {"id": "locate", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 70, "activities": [
-      {"text": "Access the assigned course and its required modules", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Find material relevant to the learner role and skill level", "evidence": ["S1"], "confidence": "explicit"}
+      {"text": "Open the assigned course and scan its required modules", "evidence": ["S1"], "confidence": "inferred"},
+      {"text": "Sort role-relevant material from content that feels irrelevant", "evidence": ["S1", "S4"], "confidence": "inferred"}
     ]},
     {"id": "prepare", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 60, "activities": [
-      {"text": "Review the prescribed sequence and mandatory modules", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Begin without a path tailored to existing knowledge", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Review the fixed path without a diagnostic of prior knowledge", "evidence": ["S1"], "confidence": "inferred"},
+      {"text": "Set aside focus time while day-to-day work competes for attention", "evidence": ["S5"], "confidence": "explicit"}
     ]},
     {"id": "confirm", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 40, "activities": [
       {"text": "Check the required modules and completion criteria", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Determine whether any assigned content can be skipped", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Judge whether the fixed path is too easy or too difficult", "evidence": ["S1"], "confidence": "explicit"}
     ]},
     {"id": "execute", "duration": {"value": 5, "unit": "hours"}, "outside_product_percent": 20, "activities": [
-      {"text": "Work through the prescribed course sequence", "evidence": ["S1"], "confidence": "explicit"},
-      {"text": "Repeat material already known instead of bypassing it", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Restart or repeat excessive content after a failed module", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Work through the same fixed path regardless of experience", "evidence": ["S1"], "confidence": "explicit"},
+      {"text": "Spend time on material already known or irrelevant to the role", "evidence": ["S1", "S4"], "confidence": "explicit"},
+      {"text": "Split attention between required training and day-to-day work", "evidence": ["S5"], "confidence": "explicit"}
     ]},
     {"id": "monitor", "duration": {"value": 0.5, "unit": "hours"}, "outside_product_percent": 30, "activities": [
-      {"text": "Check quiz results and progress after each module", "evidence": ["S1"], "confidence": "explicit"},
-      {"text": "Notice when content is too easy, too difficult, or irrelevant", "evidence": ["S1"], "confidence": "explicit"}
+      {"text": "Use quiz results and completion status to track progress", "evidence": ["S1"], "confidence": "explicit"},
+      {"text": "Personally detect when content is too easy, difficult, or irrelevant", "evidence": ["S1", "S4"], "confidence": "explicit"}
     ]},
     {"id": "modify", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 70, "activities": [
-      {"text": "Continue with limited control over sequence or difficulty", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Repeat prescribed material when an assessment is unsuccessful", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Continue on the prescribed path when the difficulty is a poor fit", "evidence": ["S1"], "confidence": "inferred"},
+      {"text": "Restart the course after failing instead of retrying one module", "evidence": ["S1"], "confidence": "explicit"}
     ]},
     {"id": "conclude", "duration": {"value": 1, "unit": "hours"}, "outside_product_percent": 20, "activities": [
-      {"text": "Complete all required modules and the final assessment", "evidence": ["S1"], "confidence": "inferred"},
-      {"text": "Confirm retained knowledge and record course completion", "evidence": ["S1"], "confidence": "inferred"}
+      {"text": "Complete every required module and the final assessment", "evidence": ["S1"], "confidence": "inferred"},
+      {"text": "Finish with weaker engagement and retention when the path is a poor fit", "evidence": ["S1"], "confidence": "explicit"}
     ]}
     ]
   },

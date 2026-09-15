@@ -100,7 +100,7 @@ Funnel completion is calculated multiplicatively because each stage's drop-off a
 
 ## Example
 
-The included fixture is based on the adaptive-learning problem described in ProdPad's [PRD example](https://www.prodpad.com/blog/prd-example/). It compares a 10-hour Status Quo flow with a proposed After flow where Execute becomes 50% faster and the other stage durations remain unchanged. Its product-boundary percentages are illustrative assumptions added to demonstrate the plain and watercolor bar treatments; they are not claims made by the article.
+The included fixture begins with the fictional adaptive-learning problem in ProdPad's [PRD example](https://www.prodpad.com/blog/prd-example/). Its Status Quo map adds supporting workplace-learning evidence from [360Learning's survey of 600 U.S. employees](https://360learning.com/blog/best-practices-in-training-and-development/) and [TalentLMS's survey of 1,000 U.S. employees](https://www.talentlms.com/research/learning-development-report-2026). It compares a 10-hour Status Quo flow with a proposed After flow where Execute becomes 50% faster and the other stage durations remain unchanged. The stage durations and product-boundary percentages are illustrative assumptions added to demonstrate comparison scaling and the plain and watercolor bar treatments; they are not measurements reported by those sources.
 
 - [Input specification](skills/job-map-diagrams/examples/prodpad-adaptive-learning-spec.json)
 - [Editable Eraser JSON](skills/job-map-diagrams/examples/prodpad-adaptive-learning.json)
